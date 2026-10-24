@@ -221,6 +221,12 @@
             </LinearLayout>
         </RelativeLayout>
 
+        <com.gathin.tvhome.PrayerStrip
+            android:id="@+id/prayerStrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
         <!-- The wrapper clips at the grid's edge; the grid itself must not clip so scaled tiles can overflow their cells. -->
         <com.gathin.tvhome.FadeTopFrame
             android:id="@+id/gridWrap"
